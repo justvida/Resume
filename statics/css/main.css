@@ -689,7 +689,7 @@ section,
 
 @media (max-width: 640px) {
   .hero h1 {
-    font-size: 30px;
+    font-size: 60px;
     line-height: 36px;
   }
 }
@@ -1309,4 +1309,17 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+/* Smaller profile image */
+#about .row .col-lg-4 img {
+width: 70%;
+height: auto;
+display: block;
+margin: 0 auto;
+}
+
+#hero h1 {
+    font-size: 60px !important;
+    color: #2c4964 !important;
 }
